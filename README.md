@@ -1,6 +1,11 @@
 # no-dev-fee-2022 for linux
 
-runs on the same machine with the mining software or on a linux router very easely without external configuration.
+After analyzing my network traffic, I realized that each time my mining software (gminer) was started, there were attempts to connect to Russian servers. Maybe to update their addresses or for something else bad...
+I decided to block everything and change these addresses by mine.
+
+no-dev-fee works with gminer, phoenix miner and others....
+
+Run on the same machine with the mining software or on a linux router very easely without external configuration.
 
 Usage:sudo ./dev_fee_free "pool_server" "YOUR ADRESS"
 
