@@ -1,8 +1,11 @@
-# no-dev-fee-2022
+# no-dev-fee-2022 for linux
+
+runs on the same machine with the mining software or on a linux router very easely without external configuration.
 
 Usage:sudo ./dev_fee_free "pool_server" "YOUR ADRESS"
 
 compatible with eth, etc , ...
+
  
 Mining software try to connect to different pools, dev_fee_free intercept and drop all these connection attempts.
  
