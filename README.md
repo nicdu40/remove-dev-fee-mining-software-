@@ -57,5 +57,6 @@ asia-etc.2miners.com
 
 ![term](https://user-images.githubusercontent.com/45800260/161018610-a734306e-f2fe-4e41-9bf0-6b18ffb7258f.png)
 
+![Screenshot_20220317_083440](https://user-images.githubusercontent.com/45800260/161022094-5d2db81a-97ed-4726-a350-4f019dc8f0fe.png)
 
 
