@@ -7,7 +7,7 @@ no-dev-fee works with gminer, phoenix miner and others....
 
 Run on the same machine with the mining software or on a linux router very easely without external configuration.
 
-Usage:sudo ./dev_fee_free "pool_server" "YOUR ADRESS"
+Usage: sudo ./dev_fee_free "pool_server" "YOUR ADRESS"
 
 compatible with eth, etc , ...
 
