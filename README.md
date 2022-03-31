@@ -4,13 +4,13 @@ After analyzing my network traffic, I realized that each time my mining software
 I decided to block everything and change these addresses by mine.
 
 
-no-dev-fee works with gminer, phoenix miner and others....
+**no-dev-fee** works with gminer, phoenix miner and others....
 
 Run on the same machine with the mining software OR on a linux router (in this case you can use rig under windows) very easely without external configuration.
 
 Usage: **sudo ./dev_fee_free "pool_server" "YOUR WALLET ADRESS"**
 
-You have to ru your mining software whith normal user ( uid=1000 ) and dev_fee_free as root (dev_fee_free have to modify iptables rules)
+You have to run your **mining software with normal user** (uid=1000) and dev_fee_free as **root** (dev_fee_free have to modify iptables rules)
 
 compatible with eth, etc , ...
  
@@ -33,22 +33,22 @@ Examples:
  
 For ETC on ethermine:
 
-sudo ./dev_fee_free eu1-etc.ethermine.org 0x23e2694B7f5a1398d3572722EEEEeCE4D8C142Ca.fee
+**sudo ./dev_fee_free eu1-etc.ethermine.org 0x23e2694B7f5a1398d3572722EEEEeCE4D8C142Ca.fee**
  
  
 For ETH on ethermine:
 
-sudo ./dev_fee_free eu1.ethermine.org 0x57a0a4777cb478d02c436a9de86150fc6ad3ea7a.fee
+**sudo ./dev_fee_free eu1.ethermine.org 0x57a0a4777cb478d02c436a9de86150fc6ad3ea7a.fee**
  
  
 For ETC on 2miners:
 
-sudo ./dev_fee_free etc.2miners.com 0x23e2694B7f5a1398d3572722EEEEeCE4D8C142Ca.fee
+**sudo ./dev_fee_free etc.2miners.com 0x23e2694B7f5a1398d3572722EEEEeCE4D8C142Ca.fee**
  
  
 For ETH on 2miners:
 
-sudo ./dev_fee_free eth.2miners.com 0x57a0a4777cb478d02c436a9de86150fc6ad3ea7a.fee
+**sudo ./dev_fee_free eth.2miners.com 0x57a0a4777cb478d02c436a9de86150fc6ad3ea7a.fee**
  
  
 autorised pool server address:
