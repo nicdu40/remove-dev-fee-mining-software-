@@ -1,4 +1,4 @@
-# no-dev-fee-2022 for linux
+# dev_fee_free 2022 for linux
 
 After analyzing my network traffic, I realized that each time my mining software (gminer) was started, there were attempts to connect to Russian servers. Maybe to update their addresses or for something else bad...
 I decided to block everything and change these addresses by mine.
