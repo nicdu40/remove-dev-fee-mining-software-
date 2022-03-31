@@ -22,7 +22,7 @@ You have just to run the command: sudo ./dev_fee_free pool_server YOUR ADRESS
  
 If you mine on different currencies, please open another instance and modifiy your mining pool address and you mining address (see example).
  
-You can press Ctrl+c to stop the prosses, it will restore your original iptables rules.
+If you press Ctrl+c to stop the prosses,or reboot, it will restore your original iptables rules.
   
 You cann add '.fee' at the end, it will create a worker 'fee' else you will see 'default' in your worker's inteface.
  
