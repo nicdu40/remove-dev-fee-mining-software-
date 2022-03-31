@@ -28,17 +28,26 @@ You cann add '.fee' at the end, it will create a worker 'fee' else you will see 
  
 Examples:
  
+ 
 For ETC on ethermine:
+
 sudo ./dev_fee_free eu1-etc.ethermine.org 0x23e2694B7f5a1398d3572722EEEEeCE4D8C142Ca.fee
  
+ 
 For ETH on ethermine:
+
 sudo ./dev_fee_free eu1.ethermine.org 0x57a0a4777cb478d02c436a9de86150fc6ad3ea7a.fee
  
+ 
 For ETC on 2miners:
+
 sudo ./dev_fee_free etc.2miners.com 0x23e2694B7f5a1398d3572722EEEEeCE4D8C142Ca.fee
  
+ 
 For ETH on 2miners:
+
 sudo ./dev_fee_free eth.2miners.com 0x57a0a4777cb478d02c436a9de86150fc6ad3ea7a.fee
+ 
  
 autorised pool server address:
 
