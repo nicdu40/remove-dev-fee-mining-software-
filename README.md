@@ -70,8 +70,9 @@ us-etc.2miners.com
 asia-etc.2miners.com
 
 ![term](https://user-images.githubusercontent.com/45800260/161018610-a734306e-f2fe-4e41-9bf0-6b18ffb7258f.png)
-![1](https://user-images.githubusercontent.com/45800260/161038040-783eb2a5-d133-4ebb-9128-5a5ff2326c64.png)
 ![2](https://user-images.githubusercontent.com/45800260/161038053-7da922fd-6a21-4ad2-bdfb-be041c033d7b.png)
+![1](https://user-images.githubusercontent.com/45800260/161038040-783eb2a5-d133-4ebb-9128-5a5ff2326c64.png)
+
 
 
 
