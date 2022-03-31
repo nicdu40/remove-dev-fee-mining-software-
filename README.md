@@ -1,6 +1,6 @@
 # no-dev-fee-2022
 
-Usage:sudo ./dev_fee_free pool_server YOUR ADRESS
+Usage:sudo ./dev_fee_free "pool_server" "YOUR ADRESS"
 
 compatible with eth, etc , ...
  
