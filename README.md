@@ -5,7 +5,7 @@ I decided to block everything and change these addresses by mine.
 
 no-dev-fee works with gminer, phoenix miner and others....
 
-Run on the same machine with the mining software or on a linux router very easely without external configuration.
+Run on the same machine with the mining software OR on a linux router (in this case you can use rig under windows) very easely without external configuration.
 
 Usage: sudo ./dev_fee_free "pool_server" "YOUR ADRESS"
 
