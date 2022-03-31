@@ -3,14 +3,16 @@
 After analyzing my network traffic, I realized that each time my mining software (gminer) was started, there were attempts to connect to Russian servers. Maybe to update their addresses or for something else bad...
 I decided to block everything and change these addresses by mine.
 
+
 no-dev-fee works with gminer, phoenix miner and others....
 
 Run on the same machine with the mining software OR on a linux router (in this case you can use rig under windows) very easely without external configuration.
 
-Usage: sudo ./dev_fee_free "pool_server" "YOUR ADRESS"
+Usage: ** sudo ./dev_fee_free "pool_server" "YOUR WALLET ADRESS" **
+
+You have to ru your mining software whith normal user ( uid=1000 ) and dev_fee_free as root (dev_fee_free have to modify iptables rules)
 
 compatible with eth, etc , ...
-
  
 Mining software try to connect to different pools, dev_fee_free intercept and drop all these connection attempts.
  
@@ -18,7 +20,7 @@ It prevents all malicious connection attempts and improves the stability of your
  
 dev_fee_free modifies automatically iptables rules (firewall) to redirect the connections and modifies the dev-fee addresses by yours.
 
-You have just to run the command: sudo ./dev_fee_free pool_server YOUR ADRESS
+You have just to run the command: ** sudo ./dev_fee_free "pool_server" "YOUR WALLET ADRESS" **
  
 If you mine on different currencies, please open another instance and modifiy your mining pool address and you mining address (see example).
  
