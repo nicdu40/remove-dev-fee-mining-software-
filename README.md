@@ -1,12 +1,12 @@
-# dev_fee_free 2022 for linux
+# dev_fee_free 2022 for Linux
 
 After analyzing my network traffic, I realized that each time my mining software (gminer) was started, there were attempts to connect to Russian servers. Maybe to update their addresses or for something else bad...
-I decided to block everything and change these addresses by mine.
 
+I decided to block everything and change these addresses to mine.
 
-**dev-fee-free** works with gminer, phoenix miner and others....
+**dev-fee-free** works with gminer, phoenix miner, and others...
 
-Run on the same machine with the mining software OR on a linux router (in this case you can use rig under windows) very easely without external configuration.
+Run on the same machine with the mining software OR on a linux router (in this case you can use rig under windows) very easily without external configuration.
 
 Usage: **sudo ./dev_fee_free "pool_server" "YOUR WALLET ADRESS"**
 
@@ -14,19 +14,19 @@ You have to run your **mining software with normal user** (uid=1000) and dev_fee
 
 compatible with eth, etc , ...
  
-Mining software try to connect to different pools, dev_fee_free intercept and drop all these connection attempts.
+Mining software tries to connect to different pools, dev_fee_free intercept and drop all these connection attempts.
  
 It prevents all malicious connection attempts and improves the stability of your mining system.
  
-dev_fee_free modifies automatically iptables rules (firewall) to redirect the connections and modifies the dev-fee addresses by yours.
+dev_fee_free automatically modifies iptables rules (firewall) to redirect the connections and modifies the dev-fee addresses by yours.
 
-You have just to run the command: **sudo ./dev_fee_free "pool_server" "YOUR WALLET ADRESS"**
+You have just to run the command: **sudo ./dev_fee_free "pool_server" "YOUR WALLET ADDRESS"**
  
-If you mine on different currencies, please open another instance and modifiy your mining pool address and you mining address (see example).
+If you mine on different currencies, please open another instance and modify your mining pool address and your mining address (see example).
  
-If you press Ctrl+c to stop the prosses,or reboot, it will restore your original iptables rules.
+If you press Ctrl+c to stop the prosses, or reboot, it will restore your original iptables rules.
   
-You cann add '.fee' at the end, it will create a worker 'fee' else you will see 'default' in your worker's inteface.
+You cann add '.fee' at the end, it will create a worker 'fee' else you will see 'default' in your worker's interface.
  
 Examples:
  
