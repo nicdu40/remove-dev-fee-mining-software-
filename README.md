@@ -10,23 +10,23 @@ Run on the same machine with the mining software OR on a linux router (in this c
 
 Usage: **sudo ./dev_fee_free "pool_server" "YOUR WALLET ADRESS"**
 
-You have to run your **mining software with normal user** (uid=1000) and dev_fee_free as **root** (dev_fee_free have to modify iptables rules)
+You have to run your **mining software with normal user** (uid=1000) and dev_fee_free as **root** (dev_fee_free has to modify iptables rules)
 
-compatible with eth, etc , ...
+compatible with eth, etc, ...
  
 Mining software tries to connect to different pools, dev_fee_free intercept and drop all these connection attempts.
  
 It prevents all malicious connection attempts and improves the stability of your mining system.
  
-dev_fee_free automatically modifies iptables rules (firewall) to redirect the connections and modifies the dev-fee addresses by yours.
+dev_fee_free automatically modifies iptables rules (firewall) to redirect the connections and changes the dev-fee addresses by yours.
 
 You have just to run the command: **sudo ./dev_fee_free "pool_server" "YOUR WALLET ADDRESS"**
  
 If you mine on different currencies, please open another instance and modify your mining pool address and your mining address (see example).
  
-If you press Ctrl+c to stop the prosses, or reboot, it will restore your original iptables rules.
+If you press Ctrl+c to stop the prosses or reboot, it will restore your original iptables rules.
   
-You cann add '.fee' at the end, it will create a worker 'fee' else you will see 'default' in your worker's interface.
+You can add '.fee' at the end, it will create a worker 'fee' else you will see 'default' in your worker's interface.
  
 Examples:
  
